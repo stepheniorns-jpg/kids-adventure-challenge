@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Kids Adventure Challenge",
+    "slug": "kids-adventure-challenge",
+    "scheme": "kidsadventurechallenge",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      "expo-image-picker",
+      "expo-location"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.kidsadventurechallenge"
+    },
+    "android": {
+      "package": "com.example.kidsadventurechallenge"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "replace-me"
+      }
+    }
+  }
+}
